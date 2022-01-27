@@ -1,0 +1,11 @@
+.hide-for-mobile {
+  @include breakpoint-down(small) {
+    display: none;
+  }
+}
+
+.hdie-for-desktop {
+  @include breakpoint-up(medium) {
+    display: none;
+  }
+}

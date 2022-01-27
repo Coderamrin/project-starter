@@ -1,0 +1,36 @@
+//title size
+.title {
+  &-1 {
+    font-size: $fs_large;
+  }
+
+  &-2 {
+    font-size: $fs_medium;
+  }
+
+  &-3 {
+    font-size: $fs_small;
+  }
+
+  &-4 {
+    font-size: $fs_small2;
+  }
+}
+
+.text {
+  &-1 {
+    font-size: $fs_small;
+  }
+
+  &-2 {
+    font-size: $fs_small2;
+  }
+
+  &-3 {
+    font-size: $fs_medium;
+  }
+
+  &-4 {
+    font-size: $fs_large;
+  }
+}

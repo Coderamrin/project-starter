@@ -1,0 +1,29 @@
+//button, btn styles
+button,
+.btn {
+  text-decoration: none;
+  color: $white;
+  background-color: $black;
+  border: 2px solid $black;
+  border-radius: 0.25rem;
+  font-size: $font_size_small;
+  font-family: $fm_primary;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: inline-block;
+
+  &:hover {
+    background-color: $white;
+    color: $black;
+  }
+}
+
+.btn {
+  &--blue {
+    background-color: blue;
+  }
+
+  &--orange {
+    background-color: orange;
+  }
+}

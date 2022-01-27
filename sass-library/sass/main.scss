@@ -1,0 +1,12 @@
+@import 'reset';
+@import 'variables';
+@import 'mixin';
+@import 'spacing';
+@import 'functions';
+@import 'typography';
+@import 'grid';
+
+//components
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'global';

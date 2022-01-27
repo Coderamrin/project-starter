@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+}
+
+//helper classes
+.title {
+  &-1 {
+    font-size: toRem(40);
+  }
+  &-2 {
+    font-size: toRem(35);
+  }
+  &-3 {
+    font-size: toRem(30);
+  }
+  &-4 {
+    font-size: toRem(25);
+  }
+  &-5 {
+    font-size: toRem(20);
+  }
+  &-6 {
+    font-size: toRem(18);
+  }
+}
+
+.btn,
+button {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  text-decoration: none;
+  font-size: toRem(16);
+  background-color: #fff;
+  color: #000;
+}
+
+.btn {
+  &--blue {
+    background-color: blue;
+    color: #fff;
+  }
+}
+
+.p {
+  &-5 {
+    padding: toRem(50);
+  }
+}
+
+// flex box helper
+.flex {
+  display: flex;
+
+  &-col {
+    flex-direction: column;
+  }
+
+  &-row {
+    flex-direction: row;
+  }
+
+  &-js {
+    &-center {
+      justify-content: center;
+    }
+    &-between {
+      justify-content: space-between;
+    }
+    &-around {
+      justify-content: space-around;
+    }
+  }
+
+  &-al {
+    &-center {
+      align-items: center;
+    }
+    &-between {
+      align-items: space-between;
+    }
+    &-artound {
+      align-items: space-around;
+    }
+  }
+}
